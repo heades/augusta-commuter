@@ -17,7 +17,7 @@ title: The Augusta Commuter
 email: "harley.eades@gmail.com"
 description: >- # this means to ignore newlines until "baseurl:"
   The Augusta Commuter is a blog about bike commuting in Augusta, GA
-baseurl: "/augcom" # the subpath of your site, e.g. /blog
+baseurl: "/augusta-commuter" # the subpath of your site, e.g. /blog
 #url: "http://metatheorem.org" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
