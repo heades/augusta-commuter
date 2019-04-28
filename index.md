@@ -12,7 +12,7 @@ sitemap:
   {% for post in collection %}
   
   <div class="list-group-item">
-    {% if post.title %} <a href="/augusta-commuter/{{ post.url }}"><h3>{{ post.title }}</h3></a> {% endif %}
+    {% if post.title %} <a href="/augusta-commuter{{ post.url }}"><h3>{{ post.title }}</h3></a> {% endif %}
     {% if post.date %} {{ post.date | date: "%d %B %Y" }} {% endif %}
     | <a href="http://metatheorem.org/augusta-comm uter/{{ post.url }}#disqus_thread"></a>
   </div>  
